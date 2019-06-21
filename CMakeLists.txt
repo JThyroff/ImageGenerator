@@ -3,4 +3,4 @@ project(ImageGenerator)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ImageGenerator main.cpp)
+add_executable(ImageGenerator main.cpp main.h)

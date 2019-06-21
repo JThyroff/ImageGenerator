@@ -87,6 +87,9 @@
 		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/main.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/main.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
 		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
