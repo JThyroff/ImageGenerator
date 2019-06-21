@@ -12,8 +12,20 @@
 
 typedef std::vector<unsigned char> ucVec;
 
-void gen1(ucVec & image,unsigned width, unsigned height);
-void gen2(ucVec & image,unsigned width, unsigned height);
-void gen3(ucVec & image,unsigned width, unsigned height);
-void gen4(ucVec & image,unsigned width, unsigned height);
-void gen5(ucVec & image,unsigned width, unsigned height);
+void gen1(ucVec &image, unsigned width, unsigned height);
+
+void gen2(ucVec &image, unsigned width, unsigned height);
+
+void gen3(ucVec &image, unsigned width, unsigned height);
+
+void gen4(ucVec &image, unsigned width, unsigned height);
+
+void gen5(ucVec &image, unsigned width, unsigned height);
+
+void gen6(ucVec &image, unsigned width, unsigned height);
+
+void gen7(ucVec &image, unsigned width, unsigned height);
+
+void gen8(ucVec & image,unsigned width, unsigned height);
+
+void gen9(ucVec & image,unsigned width, unsigned height);

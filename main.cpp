@@ -44,6 +44,38 @@ int main() {
     image5.resize(width * height * 4);
     gen5(image5,width,height);
     encodeOneStep(filename5, image5, width, height);
+
+    width=512;height = 512;
+    //img6
+    ucVec image6;
+    const char* filename6 = "image6.png";
+    image6.resize(width * height * 4);
+    gen6(image6,width,height);
+    encodeOneStep(filename6, image6, width, height);
+
+    width=1024;height = 1024;
+    //img7
+    ucVec image7;
+    const char* filename7 = "image7.png";
+    image7.resize(width * height * 4);
+    gen7(image7,width,height);
+    encodeOneStep(filename7, image7, width, height);
+
+    width=512;height = 512;
+    //img8
+    ucVec image8;
+    const char* filename8 = "image8.png";
+    image8.resize(width * height * 4);
+    gen8(image8,width,height);
+    encodeOneStep(filename8, image8, width, height);
+
+    width=1024;height = 1024;
+    //img9
+    ucVec image9;
+    const char* filename9 = "image9.png";
+    image9.resize(width * height * 4);
+    gen9(image9,width,height);
+    encodeOneStep(filename9, image9, width, height);
 }
 
 //Encode from raw pixels to disk with a single function call
