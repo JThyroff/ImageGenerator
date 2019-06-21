@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/generators.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/generators.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
 		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/main.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>

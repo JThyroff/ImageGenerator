@@ -1,27 +1,54 @@
 #include "main.h"
+#include "generators.h"
 
-int main(int argc, char *argv[] ) {
-    //NOTE: this sample will overwrite the file or test.png without warning!
-    const char* filename = argc > 1 ? argv[1] : "result.png";
-
+int main() {
     //generate some image
     unsigned width = 512, height = 512;
-    std::vector<unsigned char> image;
-    image.resize(width * height * 4);
-    for(unsigned y = 0; y < height; y++)
-        for(unsigned x = 0; x < width; x++) {
-            image[4 * width * y + 4 * x + 0] = 255 * !(x & y);
-            image[4 * width * y + 4 * x + 1] = x ^ y;
-            image[4 * width * y + 4 * x + 2] = x | y;
-            image[4 * width * y + 4 * x + 3] = 255;
-        }
 
+    //img1
+    const char* filename = "image1.png";
+    ucVec image;
+    image.resize(width * height * 4);
+    gen1(image,width,height);
     encodeOneStep(filename, image, width, height);
+
+    //img2
+    ucVec image2;
+    const char* filename2 = "image2.png";
+    image2.resize(width * height * 4);
+    gen2(image2,width,height);
+    encodeOneStep(filename2, image2, width, height);
+
+    //img3
+    width = 256;
+    height = 256;
+    ucVec image3;
+    const char* filename3 = "image3.png";
+    image3.resize(width * height * 4);
+    gen3(image3,width,height);
+    encodeOneStep(filename3, image3, width, height);
+
+
+    width=1024;height = 1024;
+    //img4
+    ucVec image4;
+    const char* filename4 = "image4.png";
+    image4.resize(width * height * 4);
+    gen4(image4,width,height);
+    encodeOneStep(filename4, image4, width, height);
+
+    width=512;height = 512;
+    //img5
+    ucVec image5;
+    const char* filename5 = "image5.png";
+    image5.resize(width * height * 4);
+    gen5(image5,width,height);
+    encodeOneStep(filename5, image5, width, height);
 }
 
 //Encode from raw pixels to disk with a single function call
 //The image argument has width * height RGBA pixels or width * height * 4 bytes
-void encodeOneStep(const char* filename, std::vector<unsigned char>& image, unsigned width, unsigned height) {
+void encodeOneStep(const char* filename, ucVec& image, unsigned width, unsigned height) {
     //Encode the image
     unsigned error = lodepng::encode(filename, image, width, height);
 

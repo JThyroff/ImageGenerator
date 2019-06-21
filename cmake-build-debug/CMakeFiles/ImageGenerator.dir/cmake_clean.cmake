@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ImageGenerator.dir/main.cpp.o"
+  "CMakeFiles/ImageGenerator.dir/generators.cpp.o"
   "ImageGenerator.pdb"
   "ImageGenerator"
 )

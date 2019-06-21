@@ -11,7 +11,7 @@
 #include "lodepng/lodepng.h"
 #include "lodepng/lodepng.cpp"
 #include <iostream>
-
+#include <vector>
 
 typedef std::vector<unsigned char> ucVec;
 

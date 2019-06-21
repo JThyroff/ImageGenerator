@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/ImageGenerator.dir/main.cpp.o  -o ImageGenerator 
+/usr/bin/c++  -g   CMakeFiles/ImageGenerator.dir/main.cpp.o CMakeFiles/ImageGenerator.dir/generators.cpp.o  -o ImageGenerator 

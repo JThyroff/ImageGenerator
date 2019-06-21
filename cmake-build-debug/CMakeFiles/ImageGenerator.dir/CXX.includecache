@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/lfnnx/WOKRSPACE/ImageGenerator/generators.h
+iostream
+-
+vector
+-
+
 /home/lfnnx/WOKRSPACE/ImageGenerator/lodepng/lodepng.cpp
 lodepng.h
 /home/lfnnx/WOKRSPACE/ImageGenerator/lodepng/lodepng.h
@@ -33,6 +39,8 @@ lodepng.h
 /home/lfnnx/WOKRSPACE/ImageGenerator/main.cpp
 main.h
 /home/lfnnx/WOKRSPACE/ImageGenerator/main.h
+generators.h
+/home/lfnnx/WOKRSPACE/ImageGenerator/generators.h
 
 /home/lfnnx/WOKRSPACE/ImageGenerator/main.h
 lodepng/lodepng.h
@@ -40,5 +48,7 @@ lodepng/lodepng.h
 lodepng/lodepng.cpp
 /home/lfnnx/WOKRSPACE/ImageGenerator/lodepng/lodepng.cpp
 iostream
+-
+vector
 -
 

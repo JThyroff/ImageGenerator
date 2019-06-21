@@ -123,6 +123,33 @@ ImageGenerator/fast:
 	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/build
 .PHONY : ImageGenerator/fast
 
+generators.o: generators.cpp.o
+
+.PHONY : generators.o
+
+# target to build an object file
+generators.cpp.o:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/generators.cpp.o
+.PHONY : generators.cpp.o
+
+generators.i: generators.cpp.i
+
+.PHONY : generators.i
+
+# target to preprocess a source file
+generators.cpp.i:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/generators.cpp.i
+.PHONY : generators.cpp.i
+
+generators.s: generators.cpp.s
+
+.PHONY : generators.s
+
+# target to generate assembly for a file
+generators.cpp.s:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/generators.cpp.s
+.PHONY : generators.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ImageGenerator"
 	@echo "... edit_cache"
+	@echo "... generators.o"
+	@echo "... generators.i"
+	@echo "... generators.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
