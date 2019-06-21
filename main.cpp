@@ -1,7 +1,10 @@
 #include "main.h"
-#include "generators.h"
+#include "Gen/generators.h"
 
 int main() {
+
+    std::cout << "Generating Images...";
+
     //generate some image
     unsigned width = 512, height = 512;
 
@@ -76,6 +79,8 @@ int main() {
     image9.resize(width * height * 4);
     gen9(image9,width,height);
     encodeOneStep(filename9, image9, width, height);
+
+    std::cout << "\nGenerating Images - Finished!\n";
 }
 
 //Encode from raw pixels to disk with a single function call

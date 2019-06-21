@@ -84,10 +84,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/generators.cpp">
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/BinaryFunction.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/generators.h">
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/BinaryFunction.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/Function.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/Function.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/FunctionGenerator.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/FunctionParts.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/UnaryFunction.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/UnaryFunction.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Gen/generators.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Gen/generators.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
 		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/main.cpp">

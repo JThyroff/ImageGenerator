@@ -123,32 +123,140 @@ ImageGenerator/fast:
 	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/build
 .PHONY : ImageGenerator/fast
 
-generators.o: generators.cpp.o
+Fun/BinaryFunction.o: Fun/BinaryFunction.cpp.o
 
-.PHONY : generators.o
+.PHONY : Fun/BinaryFunction.o
 
 # target to build an object file
-generators.cpp.o:
-	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/generators.cpp.o
-.PHONY : generators.cpp.o
+Fun/BinaryFunction.cpp.o:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o
+.PHONY : Fun/BinaryFunction.cpp.o
 
-generators.i: generators.cpp.i
+Fun/BinaryFunction.i: Fun/BinaryFunction.cpp.i
 
-.PHONY : generators.i
+.PHONY : Fun/BinaryFunction.i
 
 # target to preprocess a source file
-generators.cpp.i:
-	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/generators.cpp.i
-.PHONY : generators.cpp.i
+Fun/BinaryFunction.cpp.i:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.i
+.PHONY : Fun/BinaryFunction.cpp.i
 
-generators.s: generators.cpp.s
+Fun/BinaryFunction.s: Fun/BinaryFunction.cpp.s
 
-.PHONY : generators.s
+.PHONY : Fun/BinaryFunction.s
 
 # target to generate assembly for a file
-generators.cpp.s:
-	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/generators.cpp.s
-.PHONY : generators.cpp.s
+Fun/BinaryFunction.cpp.s:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.s
+.PHONY : Fun/BinaryFunction.cpp.s
+
+Fun/Function.o: Fun/Function.cpp.o
+
+.PHONY : Fun/Function.o
+
+# target to build an object file
+Fun/Function.cpp.o:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.o
+.PHONY : Fun/Function.cpp.o
+
+Fun/Function.i: Fun/Function.cpp.i
+
+.PHONY : Fun/Function.i
+
+# target to preprocess a source file
+Fun/Function.cpp.i:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.i
+.PHONY : Fun/Function.cpp.i
+
+Fun/Function.s: Fun/Function.cpp.s
+
+.PHONY : Fun/Function.s
+
+# target to generate assembly for a file
+Fun/Function.cpp.s:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.s
+.PHONY : Fun/Function.cpp.s
+
+Fun/FunctionGenerator.o: Fun/FunctionGenerator.cpp.o
+
+.PHONY : Fun/FunctionGenerator.o
+
+# target to build an object file
+Fun/FunctionGenerator.cpp.o:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.o
+.PHONY : Fun/FunctionGenerator.cpp.o
+
+Fun/FunctionGenerator.i: Fun/FunctionGenerator.cpp.i
+
+.PHONY : Fun/FunctionGenerator.i
+
+# target to preprocess a source file
+Fun/FunctionGenerator.cpp.i:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.i
+.PHONY : Fun/FunctionGenerator.cpp.i
+
+Fun/FunctionGenerator.s: Fun/FunctionGenerator.cpp.s
+
+.PHONY : Fun/FunctionGenerator.s
+
+# target to generate assembly for a file
+Fun/FunctionGenerator.cpp.s:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.s
+.PHONY : Fun/FunctionGenerator.cpp.s
+
+Fun/UnaryFunction.o: Fun/UnaryFunction.cpp.o
+
+.PHONY : Fun/UnaryFunction.o
+
+# target to build an object file
+Fun/UnaryFunction.cpp.o:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o
+.PHONY : Fun/UnaryFunction.cpp.o
+
+Fun/UnaryFunction.i: Fun/UnaryFunction.cpp.i
+
+.PHONY : Fun/UnaryFunction.i
+
+# target to preprocess a source file
+Fun/UnaryFunction.cpp.i:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.i
+.PHONY : Fun/UnaryFunction.cpp.i
+
+Fun/UnaryFunction.s: Fun/UnaryFunction.cpp.s
+
+.PHONY : Fun/UnaryFunction.s
+
+# target to generate assembly for a file
+Fun/UnaryFunction.cpp.s:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.s
+.PHONY : Fun/UnaryFunction.cpp.s
+
+Gen/generators.o: Gen/generators.cpp.o
+
+.PHONY : Gen/generators.o
+
+# target to build an object file
+Gen/generators.cpp.o:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.o
+.PHONY : Gen/generators.cpp.o
+
+Gen/generators.i: Gen/generators.cpp.i
+
+.PHONY : Gen/generators.i
+
+# target to preprocess a source file
+Gen/generators.cpp.i:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.i
+.PHONY : Gen/generators.cpp.i
+
+Gen/generators.s: Gen/generators.cpp.s
+
+.PHONY : Gen/generators.s
+
+# target to generate assembly for a file
+Gen/generators.cpp.s:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.s
+.PHONY : Gen/generators.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +294,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ImageGenerator"
 	@echo "... edit_cache"
-	@echo "... generators.o"
-	@echo "... generators.i"
-	@echo "... generators.s"
+	@echo "... Fun/BinaryFunction.o"
+	@echo "... Fun/BinaryFunction.i"
+	@echo "... Fun/BinaryFunction.s"
+	@echo "... Fun/Function.o"
+	@echo "... Fun/Function.i"
+	@echo "... Fun/Function.s"
+	@echo "... Fun/FunctionGenerator.o"
+	@echo "... Fun/FunctionGenerator.i"
+	@echo "... Fun/FunctionGenerator.s"
+	@echo "... Fun/UnaryFunction.o"
+	@echo "... Fun/UnaryFunction.i"
+	@echo "... Fun/UnaryFunction.s"
+	@echo "... Gen/generators.o"
+	@echo "... Gen/generators.i"
+	@echo "... Gen/generators.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
