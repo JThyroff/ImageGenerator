@@ -18,6 +18,11 @@ struct UnaryFunction : public Function{
         this->var = var;
         this->lop = op;
     }
+
+    ~UnaryFunction(){
+        delete(var);
+    }
+
     virtual unsigned char evaluate(unsigned x, unsigned y) override;
 
     virtual std::string print() override ;

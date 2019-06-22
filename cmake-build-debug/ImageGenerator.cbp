@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/ConfigParser.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/ConfigParser.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
 		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/BinaryFunction.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>

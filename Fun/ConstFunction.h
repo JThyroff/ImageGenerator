@@ -12,13 +12,18 @@
 #include "Function.h"
 
 struct ConstFunction : public Function {
-    ConstFunction(VARIABLES variables) {
-        (*this).var = var;
-    }
-
     VARIABLES var;
 
+    ConstFunction(VARIABLES variables) {
+        this->var = variables;
+    }
+
+    ~ConstFunction(){
+
+    }
+
     virtual unsigned char evaluate(unsigned x, unsigned y) override {
+
         switch (var) {
             case X:
                 return x;

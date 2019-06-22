@@ -14,7 +14,7 @@ unsigned char BinaryFunction::evaluate(unsigned x, unsigned y) {
             case MUL:
                 return varl->evaluate(x, y) * varr->evaluate(x, y);
             case DIV:
-                return varl->evaluate(x, y) / varr->evaluate(x, y) + 1;//no division by 0
+                return varl->evaluate(x, y) / (varr->evaluate(x, y) + 1);//no division by 0
         }
     } else {
         switch (lop) {

@@ -32,6 +32,12 @@ struct BinaryFunction : public Function{
         this->lop = op;
         aritop = false;
     }
+
+    ~BinaryFunction(){
+        delete(varl);
+        delete(varr);
+    }
+
     virtual unsigned char evaluate(unsigned x, unsigned y) override;
 
     virtual std::string print() override ;

@@ -1,42 +1,62 @@
-#include "main.h"
-#include "Gen/generators.h"
-#include "Gen/FunctionGenerator.cpp"
 
+#include "main.h"
 
 int main() {
+
+    ConfigParser p;
+    p.load("ImageGenerator.cfg");
+
     FunctionGenerator funGen = FunctionGenerator();
     Function *red;
     Function *green;
     Function *blue;
 
-    std::cout << "Generating Images..." << std::endl;
+    std::cout << "Generating Image(s)..." << std::endl<<std::endl;
 
-    unsigned width = 1024, height = 1024;
+    auto start = std::chrono::high_resolution_clock::now();
+    auto x = std::chrono::time_point_cast<std::chrono::nanoseconds>(start);
+    std::string res = std::to_string(x.time_since_epoch().count());
 
-    std::cout << "Generating Random Image..." << std::endl;
+    for(int i = 0;i<p.count;i++){
+        std::cout << "Generating Random Image..." << std::endl;
 
-    ucVec imageRnd;
-    const char *filename0 = "rndImage";
-    imageRnd.resize(width * height * 4);
-    red = funGen.generateFunction(1, 1, 2);
-    green = funGen.generateFunction(1, 1, 2);
-    blue = funGen.generateFunction(1, 1, 2);
+        ucVec imageRnd;
+        std::string tmp = "rndImage#" + res+ "#i="+std::to_string(i);
+        const char *filename0 =tmp.c_str();
+        imageRnd.resize(p.width * p.height * 4);
 
-    std::string redFunc = red->print();
-    std::string greenFunc = green->print();
-    std::string blueFunc = blue->print();
+        unsigned int * redp = p.getRedStartParams();
+        unsigned int * greenp = p.getGreenStartParams();
+        unsigned int * bluep = p.getBlueStartParams();
 
-    std::cout << "Red Fun:" << redFunc << std::endl;
-    std::cout << "Green Fun:" << greenFunc << std::endl;
-    std::cout << "Blue Fun:" << blueFunc << std::endl;
+        red = funGen.generateFunction(redp[0],redp[1],redp[2]);
+        green = funGen.generateFunction(greenp[0],greenp[1],greenp[2]);
+        blue = funGen.generateFunction(bluep[0],bluep[1],bluep[2]);
+
+        std::string redFunc = red->print();
+        std::string greenFunc = green->print();
+        std::string blueFunc = blue->print();
+
+        std::cout << "Red Fun:" << redFunc << std::endl;
+        std::cout << "Green Fun:" << greenFunc << std::endl;
+        std::cout << "Blue Fun:" << blueFunc << std::endl;
 
 
-    genBasedOnFunctions(imageRnd, width, height, red, green, blue);
-    encodeOneStep(filename0, imageRnd, width, height);
+        genBasedOnFunctions(imageRnd, p.width, p.height, red, green, blue);
+        encodeOneStep(filename0, imageRnd, p.width, p.height);
 
-    std::cout << "Generating Random Image - Finished!" << std::endl;
+        std::cout << "Generating Random Image - Finished!" << std::endl<<std::endl;
+    }
 
-    //generate some default images
+    auto finish = std::chrono::high_resolution_clock::now();
+    std::cout << std::chrono::duration_cast<std::chrono::nanoseconds>(finish-start).count() << "ns\n";
+
+    //generate some default images Comment this in, if you want some default examples
+/*
+
+
+    unsigned width = p.width;
+    unsigned height = p.heigth;
 
     //img1
     ucVec image;
@@ -115,8 +135,8 @@ int main() {
     image9.resize(width * height * 4);
     gen9(image9, width, height);
     encodeOneStep(filename9, image9, width, height);
-
-    std::cout << "Generating Images - Finished!" << std::endl;
+*/
+    std::cout << "Generating Image(s) - Finished!" << std::endl;
 }
 
 //Encode from raw pixels to disk with a single function call

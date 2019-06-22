@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o"
   "CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o"
   "CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o"
+  "CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.o"
   "ImageGenerator.pdb"
   "ImageGenerator"
 )

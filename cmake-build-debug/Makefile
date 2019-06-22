@@ -123,6 +123,33 @@ ImageGenerator/fast:
 	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/build
 .PHONY : ImageGenerator/fast
 
+ConfigParser.o: ConfigParser.cpp.o
+
+.PHONY : ConfigParser.o
+
+# target to build an object file
+ConfigParser.cpp.o:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.o
+.PHONY : ConfigParser.cpp.o
+
+ConfigParser.i: ConfigParser.cpp.i
+
+.PHONY : ConfigParser.i
+
+# target to preprocess a source file
+ConfigParser.cpp.i:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.i
+.PHONY : ConfigParser.cpp.i
+
+ConfigParser.s: ConfigParser.cpp.s
+
+.PHONY : ConfigParser.s
+
+# target to generate assembly for a file
+ConfigParser.cpp.s:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.s
+.PHONY : ConfigParser.cpp.s
+
 Fun/BinaryFunction.o: Fun/BinaryFunction.cpp.o
 
 .PHONY : Fun/BinaryFunction.o
@@ -267,6 +294,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ImageGenerator"
 	@echo "... edit_cache"
+	@echo "... ConfigParser.o"
+	@echo "... ConfigParser.i"
+	@echo "... ConfigParser.s"
 	@echo "... Fun/BinaryFunction.o"
 	@echo "... Fun/BinaryFunction.i"
 	@echo "... Fun/BinaryFunction.s"
