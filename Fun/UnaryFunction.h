@@ -1,22 +1,26 @@
 //
 // Created by lfnnx on 21.06.19.
 //
+#pragma once
 
 #ifndef IMAGEGENERATOR_UNARYFUNCTION_H
 #define IMAGEGENERATOR_UNARYFUNCTION_H
 
 
+#include "Function.h"
 #include "FunctionParts.h"
 
-struct UnaryFunction {
-    unsigned var;
+struct UnaryFunction : public Function{
+    Function var;
     LOGOP lop;
 
-    UnaryFunction(unsigned  var,LOGOP op){
+    UnaryFunction(Function var,LOGOP op){
         this->var = var;
         this->lop = op;
     }
-    unsigned evaluate();
+    virtual unsigned char evaluate(unsigned x, unsigned y) override;
+
+    virtual std::string print() override ;
 };
 
 

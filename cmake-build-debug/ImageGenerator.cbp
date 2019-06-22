@@ -90,13 +90,10 @@
 		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/BinaryFunction.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/Function.cpp">
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/ConstFunction.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
 		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/Function.h">
-			<Option target="ImageGenerator"/>
-		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/FunctionGenerator.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>
 		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/FunctionParts.h">
@@ -106,6 +103,12 @@
 			<Option target="ImageGenerator"/>
 		</Unit>
 		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/UnaryFunction.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Gen/FunctionGenerator.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Gen/FunctionGenerator.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
 		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Gen/generators.cpp">

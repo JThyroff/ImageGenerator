@@ -83,35 +83,22 @@ CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lfnnx/WOKRSPACE/ImageGenerator/Gen/generators.cpp -o CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.s
 
-CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.o: CMakeFiles/ImageGenerator.dir/flags.make
-CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.o: ../Fun/FunctionGenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.o -c /home/lfnnx/WOKRSPACE/ImageGenerator/Fun/FunctionGenerator.cpp
+CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o: CMakeFiles/ImageGenerator.dir/flags.make
+CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o: ../Gen/FunctionGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o -c /home/lfnnx/WOKRSPACE/ImageGenerator/Gen/FunctionGenerator.cpp
 
-CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lfnnx/WOKRSPACE/ImageGenerator/Fun/FunctionGenerator.cpp > CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.i
+CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lfnnx/WOKRSPACE/ImageGenerator/Gen/FunctionGenerator.cpp > CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.i
 
-CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lfnnx/WOKRSPACE/ImageGenerator/Fun/FunctionGenerator.cpp -o CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.s
-
-CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.o: CMakeFiles/ImageGenerator.dir/flags.make
-CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.o: ../Fun/Function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.o -c /home/lfnnx/WOKRSPACE/ImageGenerator/Fun/Function.cpp
-
-CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lfnnx/WOKRSPACE/ImageGenerator/Fun/Function.cpp > CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.i
-
-CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lfnnx/WOKRSPACE/ImageGenerator/Fun/Function.cpp -o CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.s
+CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lfnnx/WOKRSPACE/ImageGenerator/Gen/FunctionGenerator.cpp -o CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.s
 
 CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o: CMakeFiles/ImageGenerator.dir/flags.make
 CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o: ../Fun/BinaryFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o -c /home/lfnnx/WOKRSPACE/ImageGenerator/Fun/BinaryFunction.cpp
 
 CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.s: cmake_force
 
 CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o: CMakeFiles/ImageGenerator.dir/flags.make
 CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o: ../Fun/UnaryFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o -c /home/lfnnx/WOKRSPACE/ImageGenerator/Fun/UnaryFunction.cpp
 
 CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.i: cmake_force
@@ -139,8 +126,7 @@ CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.s: cmake_force
 ImageGenerator_OBJECTS = \
 "CMakeFiles/ImageGenerator.dir/main.cpp.o" \
 "CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.o" \
-"CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.o" \
-"CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.o" \
+"CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o" \
 "CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o" \
 "CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o"
 
@@ -149,13 +135,12 @@ ImageGenerator_EXTERNAL_OBJECTS =
 
 ImageGenerator: CMakeFiles/ImageGenerator.dir/main.cpp.o
 ImageGenerator: CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.o
-ImageGenerator: CMakeFiles/ImageGenerator.dir/Fun/FunctionGenerator.cpp.o
-ImageGenerator: CMakeFiles/ImageGenerator.dir/Fun/Function.cpp.o
+ImageGenerator: CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o
 ImageGenerator: CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o
 ImageGenerator: CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o
 ImageGenerator: CMakeFiles/ImageGenerator.dir/build.make
 ImageGenerator: CMakeFiles/ImageGenerator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ImageGenerator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ImageGenerator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImageGenerator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

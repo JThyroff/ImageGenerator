@@ -6,14 +6,33 @@
 #include <iostream>
 #include "UnaryFunction.h"
 
-unsigned UnaryFunction::evaluate() {
+unsigned char UnaryFunction::evaluate(unsigned x, unsigned y) {
+    std::cout<<"Unaray evaluate ";
     switch (lop){
-        case ausruf:
-            return !var;
+        case NEGATE:
+            return !var.evaluate(x,y);
 
-        case tilde:break;
+        case COMPLEMENT:
+            return ~var.evaluate(x,y);
         default:
             std::cout<<"Fehler in UnaryFuntion";
             exit(-1);
     }
+}
+
+std::string UnaryFunction::print() {
+    std::string toPrint = "";
+    switch (lop){
+        case NEGATE:
+            toPrint+=" !"+var.print();
+            break;
+        case COMPLEMENT:
+            toPrint+= " ~"+var.print();
+            break;
+        default:
+            std::cout<<"Fehler in UnaryFuntion";
+            exit(-1);
+
+    }
+    return toPrint;
 }
