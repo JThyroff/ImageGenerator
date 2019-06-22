@@ -11,10 +11,10 @@
 #include "FunctionParts.h"
 
 struct UnaryFunction : public Function{
-    Function var;
+    Function * var;
     LOGOP lop;
 
-    UnaryFunction(Function var,LOGOP op){
+    UnaryFunction(Function * var,LOGOP op){
         this->var = var;
         this->lop = op;
     }

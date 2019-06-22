@@ -7,13 +7,12 @@
 #include "UnaryFunction.h"
 
 unsigned char UnaryFunction::evaluate(unsigned x, unsigned y) {
-    std::cout<<"Unaray evaluate ";
     switch (lop){
         case NEGATE:
-            return !var.evaluate(x,y);
+            return !var->evaluate(x,y);
 
         case COMPLEMENT:
-            return ~var.evaluate(x,y);
+            return ~var->evaluate(x,y);
         default:
             std::cout<<"Fehler in UnaryFuntion";
             exit(-1);
@@ -24,10 +23,10 @@ std::string UnaryFunction::print() {
     std::string toPrint = "";
     switch (lop){
         case NEGATE:
-            toPrint+=" !"+var.print();
+            toPrint+=" !"+var->print();
             break;
         case COMPLEMENT:
-            toPrint+= " ~"+var.print();
+            toPrint+= " ~"+var->print();
             break;
         default:
             std::cout<<"Fehler in UnaryFuntion";

@@ -18,13 +18,13 @@ int main() {
     ucVec imageRnd;
     const char *filename0 = "rndImage";
     imageRnd.resize(width * height * 4);
-    red = funGen.generateFunction(1, 0, 0);
-    green = funGen.generateFunction(1, 0, 0);
-    blue = funGen.generateFunction(1, 0, 0);
+    red = funGen.generateFunction(1, 1, 2);
+    green = funGen.generateFunction(1, 1, 2);
+    blue = funGen.generateFunction(1, 1, 2);
 
-    std::string redFunc = red.print();
-    std::string greenFunc = green.print();
-    std::string blueFunc = blue.print();
+    std::string redFunc = red->print();
+    std::string greenFunc = green->print();
+    std::string blueFunc = blue->print();
 
     std::cout << "Red Fun:" << redFunc << std::endl;
     std::cout << "Green Fun:" << greenFunc << std::endl;

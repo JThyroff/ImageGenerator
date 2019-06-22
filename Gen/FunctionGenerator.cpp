@@ -6,7 +6,7 @@
 
 struct FunctionGenerator {
 
-    Function generateFunction(char probConst, char probUn, char probBin) {
+    Function * generateFunction(char probConst, char probUn, char probBin) {
         std::random_device dev;
         std::mt19937 rng(dev());
         std::uniform_int_distribution<std::mt19937::result_type> dist(0,probBin + probConst + probUn-1);
@@ -22,36 +22,36 @@ struct FunctionGenerator {
 
     }
 
-    BinaryFunction generateBinaryFunction() {
+    BinaryFunction * generateBinaryFunction() {
         std::random_device dev;
         std::mt19937 rng(dev());
         std::uniform_int_distribution<std::mt19937::result_type> dist6(0,6);
 
         char rnd = dist6(rng);
-        Function fun1 = generateFunction(2, 2, 1);
-        Function fun2 = generateFunction(2, 2, 1);
+        Function * fun1 = generateFunction(2, 2, 1);
+        Function * fun2 = generateFunction(2, 2, 1);
         switch (rnd) {
             case 0:
-                return {fun1, fun2, PLUS};
+                return new BinaryFunction(fun1, fun2, PLUS);
             case 1:
-                return {fun1, fun2, MINUS};
+                return new BinaryFunction(fun1, fun2, MINUS);
             case 2:
-                return {fun1, fun2, MUL};
+                return new BinaryFunction(fun1, fun2, MUL);
             case 3:
-                return {fun1, fun2, DIV};
+                return new BinaryFunction(fun1, fun2, DIV);
             case 4:
-                return {fun1, fun2, OR};
+                return new BinaryFunction(fun1, fun2, OR);
             case 5:
-                return {fun1, fun2, XOR};
+                return new BinaryFunction(fun1, fun2, AND);
             case 6:
-                return {fun1, fun2, AND};
+                return new BinaryFunction(fun1, fun2, XOR);
             default:
                 std::cout << "Fehler in FunctionGenerator::generateUnaryFunction()";
                 exit(-1);
         }
     }
 
-    UnaryFunction  generateUnaryFunction() {
+    UnaryFunction * generateUnaryFunction() {
         std::random_device dev;
         std::mt19937 rng(dev());
         std::uniform_int_distribution<std::mt19937::result_type> dist(0,1);
@@ -59,16 +59,16 @@ struct FunctionGenerator {
         char rnd = dist(rng);
         switch (rnd) {
             case 0:
-                return {generateFunction(2, 2, 1), NEGATE};
+                return new UnaryFunction(generateFunction(2,2,1),NEGATE);
             case 1:
-                return {generateFunction(2, 2, 1), COMPLEMENT};
+                return new UnaryFunction(generateFunction(2,2,1),COMPLEMENT);
             default:
                 std::cout << "Fehler in FunctionGenerator::generateUnaryFunction()";
                 exit(-1);
         }
     }
 
-    ConstFunction generateConstFunction() {
+    ConstFunction * generateConstFunction() {
         std::random_device dev;
         std::mt19937 rng(dev());
         std::uniform_int_distribution<std::mt19937::result_type> dist(0,2);
@@ -76,11 +76,11 @@ struct FunctionGenerator {
         char rnd = dist(rng);
         switch (rnd) {
             case 0:
-                return ConstFunction(X);
+                return new ConstFunction(X);
             case 1:
-                return {Y};
+                return new ConstFunction(Y);
             case 2:
-                return {Z};
+                return new ConstFunction(Z);
             default:
                 std::cout << "Fehler in FunctionGenerator::generateConstFunction()";
                 exit(-1);

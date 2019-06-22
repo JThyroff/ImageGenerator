@@ -13,13 +13,12 @@
 
 struct ConstFunction : public Function {
     ConstFunction(VARIABLES variables) {
-        this->var = variables;
+        (*this).var = var;
     }
 
     VARIABLES var;
 
     virtual unsigned char evaluate(unsigned x, unsigned y) override {
-        std::cout<<"Const evaluate ";
         switch (var) {
             case X:
                 return x;
@@ -31,7 +30,6 @@ struct ConstFunction : public Function {
     }
 
     virtual std::string print() override {
-        std::cout<<"drucken";
         switch (var) {
             case X:
                 return "X";

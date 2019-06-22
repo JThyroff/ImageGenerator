@@ -5,67 +5,66 @@
 #include "BinaryFunction.h"
 
 unsigned char BinaryFunction::evaluate(unsigned x, unsigned y) {
-    std::cout<<"Binary evaluate ";
-    if(aritop){
-        switch (aop){
+    if (aritop) {
+        switch (aop) {
             case PLUS:
-                return varr.evaluate(x,y) + varl.evaluate(x,y);
+                return varr->evaluate(x, y) + varl->evaluate(x, y);
             case MINUS:
-                return varl.evaluate(x,y)-varr.evaluate(x,y);
+                return varl->evaluate(x, y) - varr->evaluate(x, y);
             case MUL:
-                return varl.evaluate(x,y)*varr.evaluate(x,y);
+                return varl->evaluate(x, y) * varr->evaluate(x, y);
             case DIV:
-                return varl.evaluate(x,y) / varr.evaluate(x,y)+1;//no division by 0
+                return varl->evaluate(x, y) / varr->evaluate(x, y) + 1;//no division by 0
         }
-    }else{
-        switch (lop){
+    } else {
+        switch (lop) {
             case OR:
-                return varr.evaluate(x,y) | varl.evaluate(x,y);
+                return varr->evaluate(x, y) | varl->evaluate(x, y);
 
             case AND:
-                return varl.evaluate(x,y) & varr.evaluate(x,y);
+                return varl->evaluate(x, y) & varr->evaluate(x, y);
             case XOR:
-                return varl.evaluate(x,y) ^ varr.evaluate(x,y);
+                return varl->evaluate(x, y) ^ varr->evaluate(x, y);
             default:
-                std::cout<<"Fehler in BinaryFunction.h";
+                std::cout << "Fehler in BinaryFunction.h";
                 exit(-1);
         }
     }
 }
 
 std::string BinaryFunction::print() {
-    std::string toPrint = "("+varl.print()+" ";
-    if(aritop){
-        switch (aop){
+    std::string toPrint = "(" + varl->print() + " ";
+    if (aritop) {
+        switch (aop) {
             case PLUS:
-                toPrint+="+ ";
+                toPrint += "+ ";
                 break;
             case MINUS:
-                toPrint+="- ";
+                toPrint += "- ";
                 break;
             case MUL:
-                toPrint+="* ";
+                toPrint += "* ";
                 break;
             case DIV:
-                toPrint+="/ ";
+                toPrint += "/ ";
                 break;
         }
-    }else{
-        switch (lop){
+    } else {
+        switch (lop) {
             case OR:
-                toPrint+="| ";
+                toPrint += "| ";
                 break;
             case AND:
-                toPrint+="& ";
+                toPrint += "& ";
                 break;
             case XOR:
-                toPrint+="^ ";
+                toPrint += "^ ";
                 break;
             default:
-                std::cout<<"Fehler in BinaryFunction.h";
+                std::cout << "Fehler in BinaryFunction.h";
                 exit(-1);
         }
     }
-    toPrint+=varr.print()+")";
+    toPrint += varr->print() + ")";
     return toPrint;
 }

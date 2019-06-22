@@ -13,20 +13,20 @@
 #include "FunctionParts.h"
 
 struct BinaryFunction : public Function{
-    Function varl;
-    Function varr;
+    Function * varl;
+    Function * varr;
     ARITHOP aop;
     LOGOP lop;
     bool aritop = false;
 
-    BinaryFunction(Function varl, Function varr, ARITHOP op) {
+    BinaryFunction(Function * varl, Function * varr, ARITHOP op) {
         this->varl = varl;
         this->varr = varr;
         this->aop = op;
         aritop = true;
     }
 
-    BinaryFunction(Function varl,Function varr,LOGOP op){
+    BinaryFunction(Function * varl,Function* varr,LOGOP op){
         this->varl = varl;
         this->varr = varr;
         this->lop = op;

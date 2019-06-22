@@ -13,7 +13,7 @@
 
 typedef std::vector<unsigned char> ucVec;
 
-void genBasedOnFunctions(ucVec & image, unsigned width, unsigned height, Function red,Function green,Function blue);
+void genBasedOnFunctions(ucVec & image, unsigned width, unsigned height, Function * red,Function * green,Function * blue);
 
 void gen1(ucVec &image, unsigned width, unsigned height);
 
