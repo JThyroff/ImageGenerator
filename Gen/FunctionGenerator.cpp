@@ -69,16 +69,22 @@ struct FunctionGenerator {
     static ConstFunction * generateConstFunction() {
         std::random_device dev;
         std::mt19937 rng(dev());
-        std::uniform_int_distribution<std::mt19937::result_type> dist(0,2);
+        std::uniform_int_distribution<std::mt19937::result_type> dist(0,6);
 
         char rnd = dist(rng);
         switch (rnd) {
             case 0:
-                return new ConstFunction(X);
             case 1:
-                return new ConstFunction(Y);
+                return new ConstFunction(X);
             case 2:
+            case 3:
+                return new ConstFunction(Y);
+            case 4:
                 return new ConstFunction(Z);
+            case 5:
+                return new ConstFunction(W);
+            case 6:
+                return new ConstFunction(H);
             default:
                 std::cout << "Fehler in FunctionGenerator::generateConstFunction()";
                 exit(-1);
