@@ -4,27 +4,27 @@
 
 #include "BinaryFunction.h"
 
-unsigned char BinaryFunction::evaluate(unsigned x, unsigned y) {
+unsigned char BinaryFunction::evaluate(unsigned x, unsigned y, unsigned w, unsigned h) {
     if (aritop) {
         switch (aop) {
             case PLUS:
-                return varr->evaluate(x, y) + varl->evaluate(x, y);
+                return varr->evaluate(x, y, w, h) + varl->evaluate(x, y, w, h);
             case MINUS:
-                return varl->evaluate(x, y) - varr->evaluate(x, y);
+                return varl->evaluate(x, y, w, h) - varr->evaluate(x, y, w, h);
             case MUL:
-                return varl->evaluate(x, y) * varr->evaluate(x, y);
+                return varl->evaluate(x, y, w, h) * varr->evaluate(x, y, w, h);
             case DIV:
-                return varl->evaluate(x, y) / (varr->evaluate(x, y) + 1);//no division by 0
+                return varl->evaluate(x, y, w, h) / (varr->evaluate(x, y, w, h) + 1);//no division by 0
         }
     } else {
         switch (lop) {
             case OR:
-                return varr->evaluate(x, y) | varl->evaluate(x, y);
+                return varr->evaluate(x, y, w, h) | varl->evaluate(x, y, w, h);
 
             case AND:
-                return varl->evaluate(x, y) & varr->evaluate(x, y);
+                return varl->evaluate(x, y, w, h) & varr->evaluate(x, y, w, h);
             case XOR:
-                return varl->evaluate(x, y) ^ varr->evaluate(x, y);
+                return varl->evaluate(x, y, w, h) ^ varr->evaluate(x, y, w, h);
             default:
                 std::cout << "Fehler in BinaryFunction.h";
                 exit(-1);

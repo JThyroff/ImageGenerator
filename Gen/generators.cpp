@@ -8,9 +8,9 @@
 void genBasedOnFunctions(ucVec & image, unsigned width, unsigned height, Function * red,Function * green,Function * blue){
     for(unsigned y = 0; y < height; y++)
         for(unsigned x = 0; x < width; x++) {
-            image[4 * width * y + 4 * x + 0] = red->evaluate(x,y);
-            image[4 * width * y + 4 * x + 1] = green->evaluate(x,y);
-            image[4 * width * y + 4 * x + 2] = blue->evaluate(x,y);
+            image[4 * width * y + 4 * x + 0] = red->evaluate(x,y,width,height);
+            image[4 * width * y + 4 * x + 1] = green->evaluate(x,y,width,height);
+            image[4 * width * y + 4 * x + 2] = blue->evaluate(x,y,width,height);
             image[4 * width * y + 4 * x + 3] = 255;
         }
 }

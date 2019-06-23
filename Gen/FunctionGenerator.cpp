@@ -28,25 +28,23 @@ struct FunctionGenerator {
         std::uniform_int_distribution<std::mt19937::result_type> dist6(0,6);
 
         char rnd = dist6(rng);
-        Function * fun1 = generateFunction(2, 2, 1);
-        Function * fun2 = generateFunction(2, 2, 1);
         switch (rnd) {
             case 0:
-                return new BinaryFunction(fun1, fun2, PLUS);
+                return new BinaryFunction(generateFunction(1, 2, 4), generateFunction(1, 2, 4), PLUS);
             case 1:
-                return new BinaryFunction(fun1, fun2, MINUS);
+                return new BinaryFunction(generateFunction(1, 2, 4), generateFunction(1, 2, 4), MINUS);
             case 2:
-                return new BinaryFunction(fun1, fun2, MUL);
+                return new BinaryFunction(generateFunction(2, 4, 1), generateFunction(2, 4, 1), MUL);
             case 3:
-                return new BinaryFunction(fun1, fun2, DIV);
+                return new BinaryFunction(generateFunction(2, 4, 1), generateFunction(2, 4, 1), DIV);
             case 4:
-                return new BinaryFunction(fun1, fun2, OR);
+                return new BinaryFunction(generateFunction(2, 4, 1), generateFunction(2, 4, 1), OR);
             case 5:
-                return new BinaryFunction(fun1, fun2, AND);
+                return new BinaryFunction(generateFunction(2, 4, 1), generateFunction(2, 4, 1), AND);
             case 6:
-                return new BinaryFunction(fun1, fun2, XOR);
+                return new BinaryFunction(generateFunction(2, 4, 1), generateFunction(2, 4, 1), XOR);
             default:
-                std::cout << "Fehler in FunctionGenerator::generateUnaryFunction()";
+                std::cout << "Fehler in FunctionGenerator::generateBinaryFunction()";
                 exit(-1);
         }
     }

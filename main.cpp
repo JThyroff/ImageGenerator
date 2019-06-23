@@ -21,7 +21,7 @@ int main() {
         std::cout << "Generating Random Image..." << std::endl;
 
         ucVec imageRnd;
-        std::string tmp = "rndImage#" + res+ "#i="+std::to_string(i);
+        std::string tmp = "rndImage#" + res+ "#i="+std::to_string(i)+".png";
         const char *filename0 =tmp.c_str();
         imageRnd.resize(p.width * p.height * 4);
 

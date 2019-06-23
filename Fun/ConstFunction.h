@@ -22,7 +22,7 @@ struct ConstFunction : public Function {
 
     }
 
-    virtual unsigned char evaluate(unsigned x, unsigned y) override {
+    virtual unsigned char evaluate(unsigned x, unsigned y,unsigned w, unsigned h) override {
 
         switch (var) {
             case X:
@@ -31,6 +31,10 @@ struct ConstFunction : public Function {
                 return y;
             case Z:
                 return 255;
+            case W:
+                return w;
+            case H:
+                return h;
         }
     }
 
@@ -42,6 +46,8 @@ struct ConstFunction : public Function {
                 return "Y";
             case Z:
                 return "255";
+            case W:return "WIDTH";
+            case H:return "HEIGHT";
         }
     }
 };

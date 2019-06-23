@@ -9,7 +9,7 @@
 
 class Function {
 public:
-     virtual unsigned char evaluate(unsigned x, unsigned y){};
+     virtual unsigned char evaluate(unsigned x, unsigned y, unsigned w, unsigned h){};
      virtual std::string print(){ return "salat";};
 };
 

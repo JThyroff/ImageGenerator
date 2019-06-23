@@ -6,13 +6,13 @@
 #include <iostream>
 #include "UnaryFunction.h"
 
-unsigned char UnaryFunction::evaluate(unsigned x, unsigned y) {
+unsigned char UnaryFunction::evaluate(unsigned x, unsigned y, unsigned w, unsigned h) {
     switch (lop){
         case NEGATE:
-            return !var->evaluate(x,y);
+            return !var->evaluate(x,y, w, h);
 
         case COMPLEMENT:
-            return ~var->evaluate(x,y);
+            return ~var->evaluate(x,y, w, h);
         default:
             std::cout<<"Fehler in UnaryFuntion";
             exit(-1);

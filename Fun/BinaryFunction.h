@@ -38,7 +38,7 @@ struct BinaryFunction : public Function{
         delete(varr);
     }
 
-    virtual unsigned char evaluate(unsigned x, unsigned y) override;
+    virtual unsigned char evaluate(unsigned x, unsigned y, unsigned w, unsigned h) override ;
 
     virtual std::string print() override ;
 };
