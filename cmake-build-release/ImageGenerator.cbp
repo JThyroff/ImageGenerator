@@ -90,13 +90,13 @@
 		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/ConfigParser.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinaryFunction.cpp">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinFun.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinaryFunction.h">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinFun.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/ConstFunction.h">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/ConstFun.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
 		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/Function.h">

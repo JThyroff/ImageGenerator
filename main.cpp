@@ -1,15 +1,29 @@
 
 #include "main.h"
 
+bool goodFun(Function * fun, unsigned width, unsigned height){
+    std::random_device dev;
+    std::mt19937 rng(dev());
+    std::uniform_int_distribution<std::mt19937::result_type> dist(0,1024);
+
+
+    unsigned e1 = fun->evaluate(dist(rng),dist(rng),width,height);
+    unsigned e2 = fun->evaluate(dist(rng),dist(rng),width,height);
+    unsigned e3 = fun->evaluate(dist(rng),dist(rng),width,height);
+
+    return (e1 != e2) || (e1 != e3) || (e2 != e3);
+}
+
 int main() {
 
     ConfigParser p;
     p.load("ImageGenerator.cfg");
 
     FunctionGenerator funGen = FunctionGenerator();
-    Function *red;
-    Function *green;
-    Function *blue;
+    unsigned arraySize = getArraySize(p.recursions);
+    Function *red[arraySize];
+    Function *green[arraySize];
+    Function *blue[arraySize];
 
     std::cout << "Generating Image(s)..." << std::endl<<std::endl;
 
@@ -29,20 +43,35 @@ int main() {
         unsigned int * greenp = p.getGreenStartParams();
         unsigned int * bluep = p.getBlueStartParams();
 
-        red = funGen.generateFunction(redp[0],redp[1],redp[2],redp[3]);
-        green = funGen.generateFunction(greenp[0],greenp[1],greenp[2],greenp[3]);
-        blue = funGen.generateFunction(bluep[0],bluep[1],bluep[2],bluep[3]);
+        for( int s = 0;s<arraySize;s++){
+            red[s] = funGen.generateFunction(redp[0],redp[1],redp[2],redp[3]);
+            green[s] = funGen.generateFunction(greenp[0],greenp[1],greenp[2],greenp[3]);
+            blue[s] = funGen.generateFunction(bluep[0],bluep[1],bluep[2],bluep[3]);
 
+            while(!goodFun(red[s],p.width,p.height)){
+                red[s] = funGen.generateFunction(redp[0],redp[1],redp[2],redp[3]);
+            }
+            while(!goodFun(green[s],p.width,p.height)){
+                green[s] = funGen.generateFunction(greenp[0],greenp[1],greenp[2],greenp[3]);
+            }
+            while(!goodFun(blue[s],p.width,p.height)){
+                blue[s] = funGen.generateFunction(bluep[0],bluep[1],bluep[2],bluep[3]);
+            }
+        }
+
+
+        /*
         std::string redFunc = red->print();
         std::string greenFunc = green->print();
         std::string blueFunc = blue->print();
 
+
         std::cout << "Red Fun:" << redFunc << std::endl;
         std::cout << "Green Fun:" << greenFunc << std::endl;
         std::cout << "Blue Fun:" << blueFunc << std::endl;
+        */
 
-
-        genBasedOnFunctions(imageRnd, p.width, p.height, red, green, blue);
+        genBasedOnFunctions(imageRnd, p.width, p.height, red, green, blue,arraySize);
         encodeOneStep(filename0, imageRnd, p.width, p.height);
 
         std::cout << "Generating Random Image - Finished!" << std::endl<<std::endl;
@@ -145,4 +174,12 @@ void encodeOneStep(const char *filename, ucVec &image, unsigned width, unsigned 
 
     //if there's an error, display it
     if (error) std::cout << "encoder error " << error << ": " << lodepng_error_text(error) << std::endl;
+}
+
+unsigned getArraySize(unsigned e){
+    if(e == 0){
+        return 1;
+    }else {
+        return 2*getArraySize(e -1) + 1;
+    }
 }

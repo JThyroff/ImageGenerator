@@ -11,8 +11,9 @@ struct ConfigParser {
     unsigned redStartParams[4] = {1, 1, 2, 1};
     unsigned greenStartParams[4] = {1, 1, 2, 1};
     unsigned blueStartParams[4] = {1, 1, 2, 1};
+    unsigned recursions = 2;
 
-    void load(std::string filename) {
+    void load(const std::string& filename) {
         std::cout << "Loading: " + filename + "\n";
 
         std::ifstream inputStream;
@@ -49,13 +50,14 @@ struct ConfigParser {
                     inputStream >> blueStartParams[0] >> blueStartParams[1] >> blueStartParams[2] >> blueStartParams[3];
                 } else if (firstWord == "count") {
                     inputStream >> count;
-                } else {
+                } else if (firstWord == "recursions") {
+                    inputStream >> recursions;
+                }else {
                     std::cout << "Error. Parameter could not be read: " + firstWord + "\n";
                 }
             }
         } else {
-            std::cout << "Error. The config file could not be opened and thus could not be read. Path: " + filename +
-                         "\n";
+            std::cout << "Error. The config file could not be opened and thus could not be read. Path: " + filename +"\n";
         }
 
         inputStream.close();

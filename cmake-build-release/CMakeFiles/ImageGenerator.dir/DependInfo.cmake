@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lfnnx/WORKSPACE/ImageGenerator/ConfigParser.cpp" "/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.o"
-  "/home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinaryFunction.cpp" "/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o"
+  "/home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinFun.cpp" "/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o"
   "/home/lfnnx/WORKSPACE/ImageGenerator/Fun/UnaryFunction.cpp" "/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o"
   "/home/lfnnx/WORKSPACE/ImageGenerator/Gen/FunctionGenerator.cpp" "/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o"
   "/home/lfnnx/WORKSPACE/ImageGenerator/Gen/generators.cpp" "/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.o"

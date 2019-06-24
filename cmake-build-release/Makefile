@@ -150,32 +150,32 @@ ConfigParser.cpp.s:
 	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.s
 .PHONY : ConfigParser.cpp.s
 
-Fun/BinaryFunction.o: Fun/BinaryFunction.cpp.o
+Fun/BinFun.o: Fun/BinFun.cpp.o
 
-.PHONY : Fun/BinaryFunction.o
+.PHONY : Fun/BinFun.o
 
 # target to build an object file
-Fun/BinaryFunction.cpp.o:
-	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o
-.PHONY : Fun/BinaryFunction.cpp.o
+Fun/BinFun.cpp.o:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o
+.PHONY : Fun/BinFun.cpp.o
 
-Fun/BinaryFunction.i: Fun/BinaryFunction.cpp.i
+Fun/BinFun.i: Fun/BinFun.cpp.i
 
-.PHONY : Fun/BinaryFunction.i
+.PHONY : Fun/BinFun.i
 
 # target to preprocess a source file
-Fun/BinaryFunction.cpp.i:
-	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.i
-.PHONY : Fun/BinaryFunction.cpp.i
+Fun/BinFun.cpp.i:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.i
+.PHONY : Fun/BinFun.cpp.i
 
-Fun/BinaryFunction.s: Fun/BinaryFunction.cpp.s
+Fun/BinFun.s: Fun/BinFun.cpp.s
 
-.PHONY : Fun/BinaryFunction.s
+.PHONY : Fun/BinFun.s
 
 # target to generate assembly for a file
-Fun/BinaryFunction.cpp.s:
-	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.s
-.PHONY : Fun/BinaryFunction.cpp.s
+Fun/BinFun.cpp.s:
+	$(MAKE) -f CMakeFiles/ImageGenerator.dir/build.make CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.s
+.PHONY : Fun/BinFun.cpp.s
 
 Fun/UnaryFunction.o: Fun/UnaryFunction.cpp.o
 
@@ -297,9 +297,9 @@ help:
 	@echo "... ConfigParser.o"
 	@echo "... ConfigParser.i"
 	@echo "... ConfigParser.s"
-	@echo "... Fun/BinaryFunction.o"
-	@echo "... Fun/BinaryFunction.i"
-	@echo "... Fun/BinaryFunction.s"
+	@echo "... Fun/BinFun.o"
+	@echo "... Fun/BinFun.i"
+	@echo "... Fun/BinFun.s"
 	@echo "... Fun/UnaryFunction.o"
 	@echo "... Fun/UnaryFunction.i"
 	@echo "... Fun/UnaryFunction.s"

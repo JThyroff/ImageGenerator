@@ -96,18 +96,18 @@ CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lfnnx/WORKSPACE/ImageGenerator/Gen/FunctionGenerator.cpp -o CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.s
 
-CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o: CMakeFiles/ImageGenerator.dir/flags.make
-CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o: ../Fun/BinaryFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o -c /home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinaryFunction.cpp
+CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o: CMakeFiles/ImageGenerator.dir/flags.make
+CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o: ../Fun/BinFun.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o -c /home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinFun.cpp
 
-CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinaryFunction.cpp > CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.i
+CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinFun.cpp > CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.i
 
-CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinaryFunction.cpp -o CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.s
+CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinFun.cpp -o CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.s
 
 CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o: CMakeFiles/ImageGenerator.dir/flags.make
 CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o: ../Fun/UnaryFunction.cpp
@@ -140,7 +140,7 @@ ImageGenerator_OBJECTS = \
 "CMakeFiles/ImageGenerator.dir/main.cpp.o" \
 "CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.o" \
 "CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o" \
-"CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o" \
+"CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o" \
 "CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o" \
 "CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.o"
 
@@ -150,7 +150,7 @@ ImageGenerator_EXTERNAL_OBJECTS =
 ImageGenerator: CMakeFiles/ImageGenerator.dir/main.cpp.o
 ImageGenerator: CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.o
 ImageGenerator: CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o
-ImageGenerator: CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o
+ImageGenerator: CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o
 ImageGenerator: CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o
 ImageGenerator: CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.o
 ImageGenerator: CMakeFiles/ImageGenerator.dir/build.make

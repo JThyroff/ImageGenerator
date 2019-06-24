@@ -18,7 +18,7 @@
 #include <chrono>
 
 typedef std::vector<unsigned char> ucVec;
-
+unsigned getArraySize(unsigned e);
 void encodeOneStep(const char* filename, std::vector<unsigned char>& image, unsigned width, unsigned height);
 
 #endif //IMAGEGENERATOR_MAIN_H
