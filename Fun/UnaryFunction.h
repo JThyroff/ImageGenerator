@@ -10,16 +10,16 @@
 #include "Function.h"
 #include "FunctionParts.h"
 
-struct UnaryFunction : public Function{
+struct UnFun : public Function{
     Function * var;
     LOGOP lop;
 
-    UnaryFunction(Function * var,LOGOP op){
+    UnFun(Function * var,LOGOP op){
         this->var = var;
         this->lop = op;
     }
 
-    ~UnaryFunction(){
+    ~UnFun(){
         delete(var);
     }
 

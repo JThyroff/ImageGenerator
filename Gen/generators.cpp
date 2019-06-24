@@ -41,9 +41,9 @@ void gen3(ucVec & image,unsigned width, unsigned height){
 
     for(unsigned y = 0; y < height; y++)
         for(unsigned x = 0; x < width; x++) {
-            image[4 * width * y + 4 * x + 0] = 255 * !(x ^ y);
-            image[4 * width * y + 4 * x + 1] = !x ^ y;
-            image[4 * width * y + 4 * x + 2] = x + y * 2 % 255;
+            image[4 * width * y + 4 * x + 0] = x * y / width;
+            image[4 * width * y + 4 * x + 1] = (x - y)  / (height * x);
+            image[4 * width * y + 4 * x + 2] = (x - y) / (width - height);
             image[4 * width * y + 4 * x + 3] = 255;
         }
 }

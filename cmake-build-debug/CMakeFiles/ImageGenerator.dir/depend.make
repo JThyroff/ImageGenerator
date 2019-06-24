@@ -4,18 +4,18 @@
 CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.o: ../ConfigParser.cpp
 CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.o: ../ConfigParser.h
 
-CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o: ../Fun/BinaryFunction.cpp
-CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o: ../Fun/BinaryFunction.h
-CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o: ../Fun/Function.h
-CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o: ../Fun/FunctionParts.h
+CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o: ../Fun/BinFun.cpp
+CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o: ../Fun/BinFun.h
+CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o: ../Fun/Function.h
+CMakeFiles/ImageGenerator.dir/Fun/BinFun.cpp.o: ../Fun/FunctionParts.h
 
 CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o: ../Fun/Function.h
 CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o: ../Fun/FunctionParts.h
 CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o: ../Fun/UnaryFunction.cpp
 CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o: ../Fun/UnaryFunction.h
 
-CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o: ../Fun/BinaryFunction.h
-CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o: ../Fun/ConstFunction.h
+CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o: ../Fun/BinFun.h
+CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o: ../Fun/ConstFun.h
 CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o: ../Fun/Function.h
 CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o: ../Fun/FunctionParts.h
 CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o: ../Fun/UnaryFunction.h
@@ -28,8 +28,8 @@ CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.o: ../Gen/generators.h
 
 CMakeFiles/ImageGenerator.dir/main.cpp.o: ../ConfigParser.cpp
 CMakeFiles/ImageGenerator.dir/main.cpp.o: ../ConfigParser.h
-CMakeFiles/ImageGenerator.dir/main.cpp.o: ../Fun/BinaryFunction.h
-CMakeFiles/ImageGenerator.dir/main.cpp.o: ../Fun/ConstFunction.h
+CMakeFiles/ImageGenerator.dir/main.cpp.o: ../Fun/BinFun.h
+CMakeFiles/ImageGenerator.dir/main.cpp.o: ../Fun/ConstFun.h
 CMakeFiles/ImageGenerator.dir/main.cpp.o: ../Fun/Function.h
 CMakeFiles/ImageGenerator.dir/main.cpp.o: ../Fun/FunctionParts.h
 CMakeFiles/ImageGenerator.dir/main.cpp.o: ../Fun/UnaryFunction.h

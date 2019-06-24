@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ImageGenerator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImageGenerator">
+				<Option output="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/ImageGenerator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 ImageGenerator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImageGenerator/fast">
+				<Option output="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/ImageGenerator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 ImageGenerator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/ConfigParser.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/ConfigParser.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinaryFunction.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinaryFunction.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/ConstFunction.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/Function.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/FunctionParts.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/UnaryFunction.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/UnaryFunction.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Gen/FunctionGenerator.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Gen/FunctionGenerator.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Gen/generators.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Gen/generators.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/main.cpp">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/main.h">
+			<Option target="ImageGenerator"/>
+		</Unit>
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -11,9 +11,9 @@
 #include <stdlib.h>
 #include <iostream>
 #include "../Fun/FunctionParts.h"
-#include "../Fun/BinaryFunction.h"
+#include "../Fun/BinFun.h"
 #include "../Fun/UnaryFunction.h"
-#include "../Fun/ConstFunction.h"
+#include "../Fun/ConstFun.h"
 #include <random>
 
 #endif //IMAGEGENERATOR_FUNCTIONGENERATOR_H

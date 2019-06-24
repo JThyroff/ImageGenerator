@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/ConfigParser.cpp" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="ImageGenerator" targetName="ImageGenerator" />
@@ -8,29 +11,63 @@
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a2b4f9d-9f5a-4472-82e7-2e7bc281b3f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/lodepng/lodepng.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fun/BinaryFunction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/BinaryFunction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fun/BinaryFunction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/BinaryFunction.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fun/ConstFunction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/ConstFunction.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fun/Function.h" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/Function.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fun/FunctionParts.h" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/FunctionParts.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigParser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigParser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fun/BinaryFunction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/BinFun.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fun/BinaryFunction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/BinFun.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fun/ConstFunction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/ConstFun.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fun/UnaryFunction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/UnaryFunction.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fun/UnaryFunction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Fun/UnaryFunction.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gen/FunctionGenerator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Gen/FunctionGenerator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gen/FunctionGenerator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Gen/FunctionGenerator.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gen/generators.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Gen/generators.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RELEASE/ImageGenerator" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RELEASE/ImageGenerator.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/coolesImg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/ConfigParser.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/Fun/BinaryFunction.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/Fun/UnaryFunction.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/Gen/FunctionGenerator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/Gen/generators.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/lodepng/lodepng.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ImageGenerator.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ImageGenerator" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ImageGenerator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ImageGenerator.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ImageGenerator.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ImageGenerator.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ImageGenerator.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/image0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/image1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/image3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/image4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/image5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/image6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/image7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/image8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/image9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rndImage#1561329913531445859#i=0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rndImage#1561329913531445859#i=1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rndImage#1561330194852993350#i=0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/rndImage#1561330194852993350#i=1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +80,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
-              <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+            <state relative-caret-position="380">
+              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gen/generators.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="e#40#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gen/FunctionGenerator.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-769">
+              <caret line="40" column="103" selection-start-line="40" selection-start-column="103" selection-end-line="40" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -79,25 +137,28 @@
         <option value="$PROJECT_DIR$/Gen/generators.h" />
         <option value="$PROJECT_DIR$/main.h" />
         <option value="$PROJECT_DIR$/ConfigParser.h" />
-        <option value="$PROJECT_DIR$/ConfigParser.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Gen/FunctionGenerator.cpp" />
         <option value="$PROJECT_DIR$/Fun/FunctionParts.h" />
-        <option value="$PROJECT_DIR$/Fun/ConstFunction.h" />
         <option value="$PROJECT_DIR$/Fun/Function.h" />
-        <option value="$PROJECT_DIR$/Fun/BinaryFunction.h" />
-        <option value="$PROJECT_DIR$/Fun/UnaryFunction.h" />
         <option value="$PROJECT_DIR$/Fun/BinaryFunction.cpp" />
         <option value="$PROJECT_DIR$/Fun/UnaryFunction.cpp" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" />
+        <option value="$PROJECT_DIR$/Fun/BinaryFunction.h" />
+        <option value="$PROJECT_DIR$/Fun/BinFun.h" />
+        <option value="$PROJECT_DIR$/Fun/ConstFunction.h" />
+        <option value="$PROJECT_DIR$/Fun/ConstFun.h" />
+        <option value="$PROJECT_DIR$/Fun/UnaryFunction.h" />
+        <option value="$PROJECT_DIR$/ConfigParser.cpp" />
         <option value="$PROJECT_DIR$/Gen/generators.cpp" />
+        <option value="$PROJECT_DIR$/Gen/FunctionGenerator.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1280" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="220" />
+    <option name="width" value="1684" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -112,6 +173,16 @@
               <item name="ImageGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="ImageGenerator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ImageGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="Fun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="Gen" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -122,12 +193,13 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/RELEASE/ImageGenerator" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug/ImageGenerator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -151,7 +223,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ImageGenerator" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImageGenerator" TARGET_NAME="ImageGenerator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ImageGenerator" RUN_TARGET_NAME="ImageGenerator">
+    <configuration name="ImageGenerator" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/cmake-build-debug/ImageGenerator" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -175,11 +247,16 @@
       <workItem from="1561194191286" duration="6456000" />
       <workItem from="1561201467237" duration="602000" />
       <workItem from="1561329204037" duration="749000" />
+      <workItem from="1561373700306" duration="764000" />
+      <workItem from="1561374484774" duration="1906000" />
+      <workItem from="1561382024493" duration="1304000" />
+      <workItem from="1561387231354" duration="4000" />
+      <workItem from="1561391694132" duration="4026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39111000" />
+    <option name="totallyTimeSpent" value="47115000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -191,14 +268,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="37" y="0" width="1883" height="1080" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17182498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18181819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37775445" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3221406" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5634837" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -207,7 +284,7 @@
       <window_info anchor="bottom" id="Messages" order="8" weight="0.613851" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32948583" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32948583" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32948583" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -221,54 +298,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SimpleImage.h" />
     <entry file="file://$PROJECT_DIR$/png++-0.2.9/example/pixel_generator.cpp" />
-    <entry file="file:///usr/include/c++/7/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="215" column="10" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_vector.h" />
     <entry file="file://$PROJECT_DIR$/example_encode.cpp" />
     <entry file="file://$PROJECT_DIR$/FunctionParts.cpp" />
     <entry file="file://$PROJECT_DIR$/Fun/Function.cpp" />
-    <entry file="file:///usr/include/c++/7/bits/valarray_before.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/random.tcc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="330" selection-start-line="330" selection-end-line="330" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/random.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gen/generators.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="116" selection-start-line="15" selection-start-column="116" selection-end-line="15" selection-end-column="116" />
-          <folding>
-            <element signature="e#151#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/7/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="5978" selection-start-line="5978" selection-end-line="5978" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/include/c++/7/bits/valarray_before.h" />
+    <entry file="file:///usr/include/c++/7/bits/random.tcc" />
+    <entry file="file:///usr/include/c++/7/bits/random.h" />
+    <entry file="file:///usr/include/c++/7/bits/basic_string.h" />
     <entry file="file://$PROJECT_DIR$/Gen/FunctionGenerator.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -299,79 +336,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConfigParser.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#115#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gen/FunctionGenerator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="44" column="94" selection-start-line="44" selection-start-column="94" selection-end-line="44" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fun/FunctionParts.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fun/ConstFunction.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fun/BinaryFunction.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fun/UnaryFunction.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
-          <folding>
-            <element signature="e#40#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fun/UnaryFunction.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="93" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Fun/BinaryFunction.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -382,20 +350,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gen/generators.cpp">
+    <entry file="file://$PROJECT_DIR$/main.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fun/BinFun.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fun/BinFun.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fun/ConstFun.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fun/UnaryFunction.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
           <folding>
-            <element signature="e#40#63#0" expanded="true" />
+            <element signature="e#40#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fun/UnaryFunction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gen/generators.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="116" selection-start-line="15" selection-start-column="116" selection-end-line="15" selection-end-column="116" />
+          <folding>
+            <element signature="e#151#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigParser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+        <state relative-caret-position="380">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gen/FunctionGenerator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-769">
+          <caret line="40" column="103" selection-start-line="40" selection-start-column="103" selection-end-line="40" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gen/generators.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#40#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

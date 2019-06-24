@@ -29,9 +29,9 @@ int main() {
         unsigned int * greenp = p.getGreenStartParams();
         unsigned int * bluep = p.getBlueStartParams();
 
-        red = funGen.generateFunction(redp[0],redp[1],redp[2]);
-        green = funGen.generateFunction(greenp[0],greenp[1],greenp[2]);
-        blue = funGen.generateFunction(bluep[0],bluep[1],bluep[2]);
+        red = funGen.generateFunction(redp[0],redp[1],redp[2],redp[3]);
+        green = funGen.generateFunction(greenp[0],greenp[1],greenp[2],greenp[3]);
+        blue = funGen.generateFunction(bluep[0],bluep[1],bluep[2],bluep[3]);
 
         std::string redFunc = red->print();
         std::string greenFunc = green->print();
@@ -52,12 +52,12 @@ int main() {
     std::cout << std::chrono::duration_cast<std::chrono::nanoseconds>(finish-start).count() << "ns\n";
 
     //generate some default images Comment this in, if you want some default examples
-/*
+
 
 
     unsigned width = p.width;
-    unsigned height = p.heigth;
-
+    unsigned height = p.height;
+/*
     //img1
     ucVec image;
     const char *filename = "image1.png";
@@ -71,16 +71,14 @@ int main() {
     image2.resize(width * height * 4);
     gen2(image2, width, height);
     encodeOneStep(filename2, image2, width, height);
-
+*//*
     //img3
-    width = 256;
-    height = 256;
     ucVec image3;
     const char *filename3 = "image3.png";
     image3.resize(width * height * 4);
     gen3(image3, width, height);
     encodeOneStep(filename3, image3, width, height);
-
+*//*
 
     width = 1024;
     height = 1024;

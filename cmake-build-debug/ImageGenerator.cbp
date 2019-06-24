@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug"/>
+				<Option working_dir="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug"/>
+				<Option working_dir="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ImageGenerator">
-				<Option output="/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/ImageGenerator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug"/>
+				<Option output="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/ImageGenerator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -44,15 +44,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 ImageGenerator"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 ImageGenerator"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ImageGenerator/fast">
-				<Option output="/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/ImageGenerator" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug"/>
+				<Option output="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/ImageGenerator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -67,69 +67,69 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 ImageGenerator/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 ImageGenerator/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug"/>
+				<Option working_dir="/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lfnnx/WOKRSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lfnnx/WORKSPACE/ImageGenerator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/ConfigParser.cpp">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/ConfigParser.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/ConfigParser.h">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/ConfigParser.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/BinaryFunction.cpp">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinFun.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/BinaryFunction.h">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/BinFun.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/ConstFunction.h">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/ConstFun.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/Function.h">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/Function.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/FunctionParts.h">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/FunctionParts.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/UnaryFunction.cpp">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/UnaryFunction.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Fun/UnaryFunction.h">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Fun/UnaryFunction.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Gen/FunctionGenerator.cpp">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Gen/FunctionGenerator.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Gen/FunctionGenerator.h">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Gen/FunctionGenerator.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Gen/generators.cpp">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Gen/generators.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/Gen/generators.h">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/Gen/generators.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/main.cpp">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/main.cpp">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/main.h">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/main.h">
 			<Option target="ImageGenerator"/>
 		</Unit>
-		<Unit filename="/home/lfnnx/WOKRSPACE/ImageGenerator/CMakeLists.txt">
+		<Unit filename="/home/lfnnx/WORKSPACE/ImageGenerator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

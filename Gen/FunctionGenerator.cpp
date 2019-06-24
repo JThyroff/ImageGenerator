@@ -6,23 +6,63 @@
 
 struct FunctionGenerator {
 
-    Function * generateFunction(char probConst, char probUn, char probBin) {
+    Function *generateTempFunction() {
         std::random_device dev;
         std::mt19937 rng(dev());
-        std::uniform_int_distribution<std::mt19937::result_type> dist(0,probBin + probConst + probUn-1);
+        std::uniform_int_distribution<std::mt19937::result_type> dist(0,10);
+
+        char rnd = dist(rng);
+        switch (rnd){
+            case 0 :
+                //255 * !(x & y)
+                return new BinFun (new ConstFun(Z),new UnFun(new BinFun(new ConstFun(X),new ConstFun(Y),AND),NEGATE),MUL);
+            case 1:
+                //x ^ y
+                return new BinFun(new ConstFun(X),new ConstFun(Y),XOR);
+            case 2:
+                //x * ~x -  ~y * y;
+                return new BinFun(new BinFun(new ConstFun(X),new UnFun(new ConstFun(X),COMPLEMENT),MUL),new BinFun(new UnFun(new ConstFun(Y),COMPLEMENT),new ConstFun(Y),MUL),MINUS);
+            case 3:
+                //255 * !(x | y)
+                return new BinFun (new ConstFun(Z),new UnFun(new BinFun(new ConstFun(X),new ConstFun(Y),OR),NEGATE),MUL);
+            case 4:
+                //255 * !(x & y) * 255 * ~(x | y)
+                return new BinFun(new BinFun (new ConstFun(Z),new UnFun(new BinFun(new ConstFun(X),new ConstFun(Y),AND),NEGATE),MUL),new BinFun (new ConstFun(Z),new UnFun(new BinFun(new ConstFun(X),new ConstFun(Y),OR),COMPLEMENT),MUL),MUL);
+            case 5:
+                //255 * ~(x | y)
+                return new BinFun (new ConstFun(Z),new UnFun(new BinFun(new ConstFun(X),new ConstFun(Y),OR),COMPLEMENT),MUL);
+            case 6:
+                return new BinFun(generateFunction(2,2,1,1),new ConstFun(W),DIV);
+            case 7:
+                return new BinFun(generateFunction(2,2,1,1),new ConstFun(H),DIV);
+            case 8:
+                return new BinFun(new BinFun(new ConstFun(X),new ConstFun(Y),MUL),new ConstFun(H),DIV);
+            case 9:
+                return new BinFun(new BinFun(new ConstFun(X),new ConstFun(Y),MUL),new ConstFun(W),DIV);
+            default:
+                return generateFunction(1,1,1,1);
+        }
+    }
+
+    Function * generateFunction(char probConst, char probUn, char probBin, char TempFin) {
+        std::random_device dev;
+        std::mt19937 rng(dev());
+        std::uniform_int_distribution<std::mt19937::result_type> dist(0,probConst + probUn + probBin + TempFin-1);
 
         char rnd = dist(rng);
         if (rnd < probConst) {
             return generateConstFunction();
-        } else if (rnd < probConst + probBin && rnd >= probConst) {
-            return generateBinaryFunction();
-        } else if (rnd >= probConst + probBin) {
+        } else if (rnd >= probConst && rnd < probConst + probUn ) {
             return generateUnaryFunction();
+        } else if (rnd >= probConst + probUn && rnd < probConst + probUn + probBin) {
+            return generateBinaryFunction();
+        }else if(rnd >= probConst + probUn + probBin){
+            return generateTempFunction();
         }
 
     }
 
-    BinaryFunction * generateBinaryFunction() {
+    BinFun * generateBinaryFunction() {
         std::random_device dev;
         std::mt19937 rng(dev());
         std::uniform_int_distribution<std::mt19937::result_type> dist6(0,6);
@@ -30,26 +70,26 @@ struct FunctionGenerator {
         char rnd = dist6(rng);
         switch (rnd) {
             case 0:
-                return new BinaryFunction(generateFunction(1, 2, 4), generateFunction(1, 2, 4), PLUS);
+                return new BinFun(generateFunction(1, 2, 4, 4), generateFunction(1, 2, 4, 4), PLUS);
             case 1:
-                return new BinaryFunction(generateFunction(1, 2, 4), generateFunction(1, 2, 4), MINUS);
+                return new BinFun(generateFunction(1, 2, 4, 4), generateFunction(1, 2, 4, 4), MINUS);
             case 2:
-                return new BinaryFunction(generateFunction(2, 4, 1), generateFunction(2, 4, 1), MUL);
+                return new BinFun(generateFunction(2, 4, 1, 4), generateFunction(2, 4, 1, 4), MUL);
             case 3:
-                return new BinaryFunction(generateFunction(2, 4, 1), generateFunction(2, 4, 1), DIV);
+                return new BinFun(generateFunction(2, 4, 1, 4), generateFunction(2, 4, 1, 4), DIV);
             case 4:
-                return new BinaryFunction(generateFunction(2, 4, 1), generateFunction(2, 4, 1), OR);
+                return new BinFun(generateFunction(2, 4, 1, 4), generateFunction(2, 4, 1, 4), OR);
             case 5:
-                return new BinaryFunction(generateFunction(2, 4, 1), generateFunction(2, 4, 1), AND);
+                return new BinFun(generateFunction(2, 4, 1, 4), generateFunction(2, 4, 1, 4), AND);
             case 6:
-                return new BinaryFunction(generateFunction(2, 4, 1), generateFunction(2, 4, 1), XOR);
+                return new BinFun(generateFunction(2, 4, 1, 4), generateFunction(2, 4, 1, 4), XOR);
             default:
                 std::cout << "Fehler in FunctionGenerator::generateBinaryFunction()";
                 exit(-1);
         }
     }
 
-    UnaryFunction * generateUnaryFunction() {
+    UnFun * generateUnaryFunction() {
         std::random_device dev;
         std::mt19937 rng(dev());
         std::uniform_int_distribution<std::mt19937::result_type> dist(0,1);
@@ -57,16 +97,16 @@ struct FunctionGenerator {
         char rnd = dist(rng);
         switch (rnd) {
             case 0:
-                return new UnaryFunction(generateFunction(2,2,1),NEGATE);
+                return new UnFun(generateFunction(2,2,1, 1),NEGATE);
             case 1:
-                return new UnaryFunction(generateFunction(2,2,1),COMPLEMENT);
+                return new UnFun(generateFunction(2,2,1, 1),COMPLEMENT);
             default:
                 std::cout << "Fehler in FunctionGenerator::generateUnaryFunction()";
                 exit(-1);
         }
     }
 
-    static ConstFunction * generateConstFunction() {
+    static ConstFun * generateConstFunction() {
         std::random_device dev;
         std::mt19937 rng(dev());
         std::uniform_int_distribution<std::mt19937::result_type> dist(0,6);
@@ -75,16 +115,16 @@ struct FunctionGenerator {
         switch (rnd) {
             case 0:
             case 1:
-                return new ConstFunction(X);
+                return new ConstFun(X);
             case 2:
             case 3:
-                return new ConstFunction(Y);
+                return new ConstFun(Y);
             case 4:
-                return new ConstFunction(Z);
+                return new ConstFun(Z);
             case 5:
-                return new ConstFunction(W);
+                return new ConstFun(W);
             case 6:
-                return new ConstFunction(H);
+                return new ConstFun(H);
             default:
                 std::cout << "Fehler in FunctionGenerator::generateConstFunction()";
                 exit(-1);

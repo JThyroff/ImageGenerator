@@ -6,7 +6,7 @@
 #include <iostream>
 #include "UnaryFunction.h"
 
-unsigned char UnaryFunction::evaluate(unsigned x, unsigned y, unsigned w, unsigned h) {
+unsigned char UnFun::evaluate(unsigned x, unsigned y, unsigned w, unsigned h) {
     switch (lop){
         case NEGATE:
             return !var->evaluate(x,y, w, h);
@@ -19,7 +19,7 @@ unsigned char UnaryFunction::evaluate(unsigned x, unsigned y, unsigned w, unsign
     }
 }
 
-std::string UnaryFunction::print() {
+std::string UnFun::print() {
     std::string toPrint = "";
     switch (lop){
         case NEGATE:
