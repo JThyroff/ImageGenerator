@@ -3,7 +3,7 @@ This is a little App to generate images with a given recursionDepth and various 
 
 ![Alt text](exampleImages/generated_new/img2.png?raw=true "image2.png")
 
-![Alt text](exampleImages/generated_new/img1.png?raw=true "image1.png")
+![Alt text](exampleImages/generated_new/img1Scaled.png?raw=true "image1.png")
 
 ![Alt text](exampleImages/generated_new/img4.png?raw=true "image4.png")
 
