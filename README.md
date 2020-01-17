@@ -1,2 +1,2 @@
 # ImageGenerator
-This is a little App to generate images from a given array or the RAM
+This is a little App to generate images with a given recursionDepth and various parameters.
