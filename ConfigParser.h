@@ -1,5 +1,5 @@
 //
-// Created by lfnnx on 22.06.19.
+// Created by Johannes on 22.06.19.
 //
 
 #pragma once
